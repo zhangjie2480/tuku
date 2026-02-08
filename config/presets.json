@@ -1,0 +1,64 @@
+{
+  "anime": {
+    "name": "精致动漫",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 6,
+    "noise": "native",
+    "smea": true,
+    "variety": false,
+    "suffix": "{{{masterpiece}}}, {best quality}, amazing quality, very aesthetic, anime style, detailed",
+    "neg": "lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, blurry, poorly drawn, bad face, distorted face"
+  },
+  "glossy": {
+    "name": "清透润泽",
+    "suffix": "{artist:luohuarumeng}, {artist:ciloranko}, clean style, soft lighting, {glossy skin}, {wet skin}, smooth skin, delicate features, {detailed eyes}, refined details, beautiful lighting, elegant",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, dry skin, rough skin, matte skin, dirty, messy, gritty, dark theme",
+    "sampler": "k_dpmpp_2m",
+    "steps": 28,
+    "scale": 6,
+    "smea": true,
+    "variety": false
+  },
+  "game": {
+    "name": "游戏立绘",
+    "sampler": "k_dpmpp_2m",
+    "steps": 28,
+    "scale": 7,
+    "noise": "native",
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:lack}, {artist:rella}, {artist:neco}, official art, game cg, vibrant colors, high contrast, sharp lines, clean lineart, intricate details, dynamic, glossy",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, dull colors, muted colors, soft lines, sketchy, watercolor, painterly, messy background"
+  },
+  "tension": {
+    "name": "肢体张力",
+    "suffix": "{artist:miazi}, detailed, high quality, {dynamic pose}, {glistening skin}, {sweat}, dramatic angle, expressive face, detailed anatomy, soft shading",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, stiff pose, static, flat lighting, dry skin, simple background",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 6.5,
+    "smea": true,
+    "variety": false
+  },
+  "impasto": {
+    "name": "精致厚涂",
+    "suffix": "{artist:ratatatat74}, detailed, high quality, {{{glistening skin}}}, {{sweat}}, {wet skin}, {oily skin}, {detailed skin}, [skin texture], {{dramatic lighting}}, {{high contrast}}, {volumetric light}, {rim lighting}, {warm lighting}, soft shading, {detailed background}",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, flat lighting, flat shading, cel shading, simple shading, dry skin, matte skin, soft lighting, overexposed, washed out, sketch, lineart, outline",
+    "sampler": "k_euler",
+    "steps": 28,
+    "scale": 7,
+    "smea": true,
+    "variety": false
+  },
+  "c_1770491494737": {
+    "name": "高精度",
+    "suffix": "houkisei,misaka_12003-gou,meion,[kaede_(sayappa),dishwasher1910],reoen, sencha_(senchat),you_shimizu,",
+    "neg": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, deformed, mutated, ugly",
+    "sampler": "k_euler_ancestral",
+    "steps": 23,
+    "scale": 5,
+    "smea": false,
+    "variety": false
+  }
+}
