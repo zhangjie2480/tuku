@@ -54,20 +54,10 @@
     "suffix": "{artist:ratatatat74}, detailed, high quality, {{{glistening skin}}}, {{sweat}}, {wet skin}, {oily skin}, {detailed skin}, [skin texture], {{dramatic lighting}}, {{high contrast}}, {volumetric light}, {rim lighting}, {warm lighting}, soft shading, {detailed background}",
     "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, flat lighting, flat shading, cel shading, simple shading, dry skin, matte skin, soft lighting, overexposed, washed out, sketch, lineart, outline"
   },
-  "c_1770973191049": {
-    "name": "nai专用",
-    "suffix": "artist:houkisei,misaka_12003-gou,meion,[kaede_(sayappa),dishwasher1910],reoen, sencha_(senchat),you_shimizu,",
+  "c_1771252105684": {
+    "name": "nai",
+    "suffix": "houkisei,misaka_12003-gou,meion,[kaede_(sayappa),dishwasher1910],reoen, sencha_(senchat),you_shimizu,",
     "neg": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, deformed, mutated, ugly",
-    "sampler": "k_euler_ancestral",
-    "steps": 28,
-    "scale": 6,
-    "smea": false,
-    "variety": false
-  },
-  "c_1771057914855": {
-    "name": "画风测试",
-    "suffix": "{artist：misaka_12003-gou}",
-    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, dull colors, muted colors, soft lines, sketchy, watercolor, painterly, messy background",
     "sampler": "k_euler_ancestral",
     "steps": 28,
     "scale": 6,
